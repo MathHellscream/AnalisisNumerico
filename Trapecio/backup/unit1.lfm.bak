@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 252
+  Height = 443
+  Top = 145
+  Width = 722
+  Caption = 'Form1'
+  ClientHeight = 443
+  ClientWidth = 722
+  LCLVersion = '1.6.4.0'
+  object FuncionInput: TLabeledEdit
+    Left = 24
+    Height = 29
+    Top = 40
+    Width = 384
+    EditLabel.AnchorSideLeft.Control = FuncionInput
+    EditLabel.AnchorSideRight.Control = FuncionInput
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = FuncionInput
+    EditLabel.Left = 24
+    EditLabel.Height = 17
+    EditLabel.Top = 20
+    EditLabel.Width = 384
+    EditLabel.Caption = 'Funcion A Integrar'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+  end
+  object ButtonIntegrar: TButton
+    Left = 312
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = ButtonIntegrarClick
+    TabOrder = 1
+  end
+  object AnswerOutput: TEdit
+    Left = 24
+    Height = 29
+    Top = 208
+    Width = 376
+    TabOrder = 2
+  end
+  object ParamA: TEdit
+    Left = 56
+    Height = 29
+    Top = 88
+    Width = 80
+    TabOrder = 3
+  end
+  object ParamB: TEdit
+    Left = 208
+    Height = 29
+    Top = 88
+    Width = 80
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 17
+    Top = 96
+    Width = 7
+    Caption = 'a'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 192
+    Height = 17
+    Top = 96
+    Width = 7
+    Caption = 'b'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 58
+    Height = 17
+    Top = 149
+    Width = 7
+    Caption = 'n'
+    ParentColor = False
+  end
+  object ParamN: TEdit
+    Left = 84
+    Height = 29
+    Top = 144
+    Width = 80
+    TabOrder = 5
+  end
+end
