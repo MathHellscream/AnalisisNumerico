@@ -761,7 +761,6 @@ end;
 function MathParser.solve():string;
 var i,j,k,pos,col,row:integer;
 var val:string;
-var valM:string;
 var arr:array of real;
 var arrM:array of string;
 begin
